@@ -109,6 +109,10 @@ header {
   color: black;
 }
 
+.main p a span {
+  margin-right: 8px;
+}
+
 /* footer */
 footer p {
   color: #808080;
