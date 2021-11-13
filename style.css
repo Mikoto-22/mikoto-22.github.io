@@ -50,6 +50,7 @@ header {
   width: 100%;
   height: 400px;
   position: relative; /* 画像を固定する */
+  justify-content: center; /* 画像と文字を中央に */
 }
 
 .top img {
