@@ -1,0 +1,123 @@
+/* 全体 */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Hiragino Kaku Gothic ProN";
+}
+
+a {
+  text-decoration: none; /* 下線をなくす */
+}
+
+/* header */
+header {
+  height: 65px;
+  width: 100%;
+  background-color: pink;
+  position: fixed; /* headerを上に固定 */
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  margin-top: 11px;
+  margin-left: 11px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  transition: all 0.5s;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: #808080;
+  display: block;
+}
+
+/* main */
+.container {
+  width: 100%;
+  height: 400px;
+  position: relative; /* 画像を固定する */
+}
+
+.top img {
+  object-fit: cover; /* 画像をつぶれなくする */
+  width: 100%;
+  height: 400px;
+}
+
+.top h1 {
+  position: absolute; /* 画像の上に文字をおく */
+  font-size: 45px;
+  letter-spacing: 5px; /* 文字同士の間隔をあける */
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: #808080;
+  align-items: center;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+.my {
+  height: 500px;
+  padding-bottom: 80px;
+  background-color: #e6e6fa;
+}
+
+.profile {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: #808080;
+  text-align: center;
+}
+
+.profile h2 {
+  font-weight: normal;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  margin-left: 30%;
+}
+
+.main img {
+  width: 300px;
+  height: 300px;
+}
+
+.main p {
+  margin-left: 60px;
+}
+
+.main p a {
+  color: black;
+}
+
+/* footer */
+footer p {
+  color: #808080;
+  font-size: 12px;
+  margin-left: 48%;
+}
+
+footer {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: pink;
+}
